@@ -1,0 +1,33 @@
+Upload Query
+-------------
+ForSongs     : http://127.0.0.1:5000/upload/songs/%7B%22id%22:2,%22songname%22:%22Shape%20Of%20You%22,%22duration%22:200%7D
+
+ForPodcast   : http://127.0.0.1:5000/upload/podcast/%7B%22id%22:2,%22podcastname%22:%22General%20Day%22,%22duration%22:200,%22hostname%22:%22Dharma%22,%22participents%22:%22Dharma%20Abhishek%22%7D
+
+ForAudiobook : http://127.0.0.1:5000/upload/audiobook/%7B%22id%22:2,%22title%22:%22ikigai%22,%22author%22:%22H%C3%A9ctor%20Garc%C3%ADa%22,%22narrator%22:%22Dharma%22,%22duration%22:200%7D
+
+==================================================================================================================================================
+
+Delete Query
+------------
+ForSongs     : http://127.0.0.1:5000/delete/songs/2
+ForPodcast   : http://127.0.0.1:5000/delete/podcast/2
+ForAudiobook : http://127.0.0.1:5000/delete/audiobook/2
+
+===================================================================================================================================================
+
+Update Query
+-------------
+ForSongs     : http://127.0.0.1:5000/upload/2/songs/%7B%22id%22:2,%22songname%22:%22Shape%20Of%20You%22,%22duration%22:200%7D
+
+ForPodcast   : http://127.0.0.1:5000/upload/2/podcast/%7B%22id%22:2,%22podcastname%22:%22General%20Day%22,%22duration%22:200,%22hostname%22:%22Dharma%22,%22participents%22:%22Dharma%20Abhishek%22%7D
+
+ForAudiobook : http://127.0.0.1:5000/upload/2/audiobook/%7B%22id%22:2,%22title%22:%22ikigai%22,%22author%22:%22H%C3%A9ctor%20Garc%C3%ADa%22,%22narrator%22:%22Dharma%22,%22duration%22:200%7D
+
+==================================================================================================================================================
+
+View Query
+-----------
+ForSongs     :http://127.0.0.1:5000/view/songs or http://127.0.0.1:5000/view/songs/2
+ForPodcast   :http://127.0.0.1:5000/view/podcast or http://127.0.0.1:5000/view/podcast/2
+ForAudiobook :http://127.0.0.1:5000/view/audiobook or http://127.0.0.1:5000/view/audiobook/2
